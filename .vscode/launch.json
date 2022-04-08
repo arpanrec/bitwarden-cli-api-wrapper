@@ -14,7 +14,7 @@
             "name": "Python: Module",
             "type": "python",
             "request": "launch",
-            "module": "bitwarden-cli-api-wrapper",
+            "module": "bitwarden_cli_rest_api_wrapper",
             "justMyCode": true,
             "envFile": "${workspaceFolder}/.env",
             "console": "integratedTerminal",
