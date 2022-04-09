@@ -6,7 +6,6 @@ from bitwarden_cli_rest_api_wrapper import bw_router
 
 log = logging.getLogger(__name__)
 app = FastAPI()
-print('From bitwarden_cli_rest_api_wrapper __main__')
 log.info("Starting application")
 
 

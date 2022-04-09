@@ -1,6 +1,7 @@
 import logging
 import os
 import subprocess
+import json
 
 log = logging.getLogger(__name__)
 
@@ -28,4 +29,4 @@ def bw_exec(cmd, ret_encoding='UTF-8', env_vars=None):
 
 
 def get_current_status():
-    return bw_exec("bw status".split(" "))
+    return json.loads(bw_exec("bw status".split(" ")))
